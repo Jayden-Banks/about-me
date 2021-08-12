@@ -8,6 +8,9 @@ app.get('/', (req, res) => {
 app.get('/styles', (req, res) => {
     res.sendFile(path.join(__dirname, '../index.css'))
 })
+app.get('/assets', (req, res) => {
+    res.sendFile(path.join(__dirname, '../assets'))
+})
 
 const port = process.env.PORT || 4000
 
