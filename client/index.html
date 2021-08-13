@@ -6,20 +6,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Jayden Banks</title>
     <link rel="stylesheet" type="text/css" href="./index.css" />
-    <!-- <link href="https://about-jayden.herokuapp.com/assets"/> -->
     
 </head>
 <body>
-    <head>
-        <img src="./assets/Bumblebee.jpg" alt="a cute bee">
+    <header>
+        <div class="head-picture">
+            <div class="head-picture-circle">
+                <img src="./assets/Bumblebee.png" alt="a cute bee">  
+                <!-- <h2>Jayden Banks</h2> -->
+            </div>
+        </div>
         <nav class="nav-buttons">
             <button id="about-button">About</button>
             <button id="portfolio-button">Portfolio</button>
             <button id="learning-button">Learning</button>
             <button id="contact-button">Contact</button>
         </nav>
+        <div id="header-contact">
+            <input class="header-contact-buttons" id="header-linkedin-button" type="image" src="./assets/linkedinLogo.png" value="1"/>
+            <input class="header-contact-buttons" id="header-github-button" type="image" src="./assets/githubLogo.png" value="1"/>
+            <input class="header-contact-buttons" id="header-email-button" type="image" src="./assets/emailLogo.png" value="1"/>
+        </div>
+
+    </header>
+    <main>
+        <div id="profile-picture-div">
+            <img id="profile-picture-img" src="./assets/bee-on-flower.jpeg">
+            <div id="name-text-box">
+                <h3>Jayden Banks</h3>
+                <p>Web Developer</p>
+            </div>
+        </div>
+        <div id="profile-text-div">
+            <div id="about-center-text-div">
+                <h1>About Me</h1>
+                <h2>I am a Passionate Front End Web Developer.</h2>
+                <!-- <h2>Jayden Banks</h2> -->
+                <p id="about-me-p">
+                    
+                    <br><br>
+                    How often is someone's work actually their passion? I truly enjoy programming and web development. Whether it's React, HTML, CSS, JavaScript or Python, I am always sharpening and expanding my skill set and take immense pride in my work and dedication. Clean, efficent and organized coding structures are my priorities.
+                    <br><br>
+                    In my free time, I enjoy learning new coding skills and languages as well as game making, drawing and creating pixel art.
 
 
-    </head>
+                    <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquet urna. Vivamus a finibus turpis, vitae sagittis lacus. Aliquam at ex non nibh sodales tristique. Vivamus porttitor, nibh nec facilisis tristique, magna nibh feugiat ante, sit amet varius ex ante ut ipsum. Cras est enim, aliquam at luctus euismod, viverra tempor odio. In imperdiet tortor sit amet malesuada luctus. Sed et magna vitae elit feugiat iaculis. Morbi mattis eget nisi non tincidunt. Donec id tincidunt risus. Cras justo nisi, sodales vel viverra eget, laoreet at nunc. In et metus malesuada, tincidunt est auctor, scelerisque eros. Mauris consequat libero erat, sit amet consectetur diam varius vel. -->
+                </p>
+                <div id="about-me-links-div">
+                    <div id="linkedin-about-me-div">
+                        <input class="about-me-img" id="main-linkedin-button" type="image" 
+                        src="./assets/linkedinLogo.png" value="1"/>
+                        
+                    </div>
+                    <div id="github-about-me-div">
+                        <input class="about-me-img" type="image" src="./assets/githubLogo.png" value="1"/>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <!-- <div class="h2-skill-logos">  SWITCH LOGO AND TEXT 
+            SHOULD GO UNDER LOGO-->
+        <h2 class="footer-title">Skill Set</h2>
+
+        <div class="footer-divs">
+            <div class="js-footer"><p>JavaScript</p><img src="/client/assets/javascriptLogo.png"></div>
+            <div class="python-footer"><p>Python</p><img src="assets/pythonLogo.png"></div>
+            <div class="SQL-footer"><p>SQL</p><img src="assets/sqlLogo.png"></div>
+            <div class="jest-footer"><p>Jest</p><img src="assets/jestLogo.png"></div>
+            <div class="react-footer"><p>React</p><img src="assets/reactLogo.png"></div>
+            <div class="html-footer"><p>HTML</p><img src="assets/htmlLogo.png"></div>
+            <div class="css-footer"><p>CSS</p><img src="assets/cssLogo.png"></div>
+        </div>
+        <!-- </div> -->
+    </footer>
 </body>
 </html>
