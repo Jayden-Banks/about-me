@@ -155,10 +155,12 @@ main {
 #about-center-text-div > h1 {
     font-size: 3em;
     font-family: 'LeagueSpartan';
+    text-align: left;
 }
 #about-center-text-div > h2 {
     font-size: 2em;
     font-weight: normal;
+    text-align: left;
 }
 #about-me-p {
     text-align: left;
@@ -247,5 +249,5 @@ button:active {
 
 @font-face {
     font-family: 'LeagueSpartan';
-    src: url('../client/assets/league-spartan/LeagueSpartan-Bold.otf');
+    src: url('assets/league-spartan/LeagueSpartan-Bold.otf');
 }
