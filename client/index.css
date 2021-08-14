@@ -97,7 +97,7 @@ main {
     display: flex;
     flex-direction: column;
     background-color: yellow;
-    max-width: 50%;
+    max-width: 60%;
     height: auto;
     max-height: 100%;
     align-items: center;
@@ -131,16 +131,16 @@ main {
     justify-content: center; 
     flex-direction: column;
     align-items: center;
-    width: 400px;
-    height: 100px;
+    width: 200px;
+    height: 50px;
     margin-bottom: 10px;
 }
 #name-text-box > h3 {
-    font-size: 40px;
+    font-size: 20px;
     
 }
 #name-text-box > p {
-    font-size: 27px;
+    font-size: 14px;
     
 }
 
@@ -150,23 +150,24 @@ main {
 
 /* text display */
 #about-center-text-div > h1 {
-    font-size: 5em;
+    font-size: 4em;
     font-family: 'LeagueSpartan';
     text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-right: auto;
 }
 #about-center-text-div > h2 {
-    font-size: 3em;
+    font-size: 2em;
     font-weight: normal;
     text-align: left;
     margin-right: auto;
 }
 #about-me-p {
     text-align: left;
-    /* word-spacing: 1px;*/
+    word-spacing: 1px;
     letter-spacing: 1px;
-    font-size: 1.5em;
+    font-size: 1em;
+    /* font-size: 1.5em */
     line-height: 1.5em;
 }
 
@@ -195,7 +196,7 @@ footer {
 footer > h2 {
     color: white ;
     font-size: 2em;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 
 
@@ -207,8 +208,8 @@ footer > div {
 }
 
 footer > div > div > img {
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     align-self: center;
 }
 footer > div > div > p {
