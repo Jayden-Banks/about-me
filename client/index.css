@@ -253,3 +253,28 @@ button:active {
     font-family: 'LeagueSpartan';
     src: url('assets/league-spartan/LeagueSpartan-Bold.otf');
 }
+
+@media (max-width: 1515px) {
+    p {
+        font-size: 1rem;
+    }
+
+    .nav-buttons > button {
+    margin: 40px;
+    width: 75px;
+    height: 25px;
+    color: blue; 
+    font-size: 25px;
+    }
+    
+    #div-header-contact {
+        
+    }
+
+    .header-contact-buttons {
+        width: 30px;
+        height: 30px;
+
+    }
+
+}
